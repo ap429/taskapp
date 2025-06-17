@@ -1,0 +1,23 @@
+# Flask==2.3.2
+# pymongo==4.4.1
+# gunicorn==20.1.0
+# requests
+
+# Core requirements
+Flask==2.3.2
+Werkzeug==2.3.7
+
+# For HTTP requests to fetch templates
+requests==2.31.0
+
+# For production deployment (if using Gunicorn)
+gunicorn==21.2.0
+
+# For database operations (SQLite is included in Python)
+# No additional package needed for basic SQLite
+
+# Security (already used by your password hashing)
+# Werkzeug provides the security utilities
+
+# Development extras (optional)
+python-dotenv==1.0.0  # For environment variables in development
